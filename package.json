@@ -1,0 +1,36 @@
+{
+  "name": "ui-design-systems",
+  "version": "1.1.5",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^18.2.46",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "styled-components": "^6.1.6",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "styled-components": "*"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.1.4",
+    "ts-loader": "^9.5.1"
+  },
+  "files": [
+    "./dist",
+    "./types"
+  ]
+}
