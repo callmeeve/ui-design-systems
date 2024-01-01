@@ -25,7 +25,7 @@ const StyledButton = styled.button<ButtonProps>`
     }
 `;
 
-export default function Button({ isprimary, color, txt }: ButtonProps) {
+export default function StkButton({ isprimary, color, txt }: ButtonProps) {
     return (
         <StyledButton isprimary={isprimary} color={color}>{txt}</StyledButton>
     );

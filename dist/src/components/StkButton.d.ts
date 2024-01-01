@@ -4,5 +4,5 @@ interface ButtonProps {
     color?: string;
     txt?: string;
 }
-export default function Button({ isprimary, color, txt }: ButtonProps): React.JSX.Element;
+export default function StkButton({ isprimary, color, txt }: ButtonProps): React.JSX.Element;
 export {};
