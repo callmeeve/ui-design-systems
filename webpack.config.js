@@ -6,7 +6,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'index.js',
         libraryTarget: 'umd',
-        library: "ui-design-systems"
+        library: "ulir-ds-raw"
     },
     mode: "production",
     module: {
